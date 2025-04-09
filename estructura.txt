@@ -1,0 +1,27 @@
+payment-microservice/
+├── .env.example
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+├── src/
+│   ├── controllers/
+│   │   ├── payment.controller.js
+│   │   └── biometric.controller.js
+│   ├── services/
+│   │   ├── stripe.service.js
+│   │   └── biometric.service.js
+│   ├── routes/
+│   │   └── api.js
+│   ├── middlewares/
+│   │   └── auth.js
+│   ├── models/
+│   │   └── Payment.js
+│   ├── utils/
+│   │   ├── logger.js
+│   │   └── validators.js
+│   └── app.js
+├── tests/
+│   ├── unit/
+│   └── integration/
+├── package.json
+└── README.md
